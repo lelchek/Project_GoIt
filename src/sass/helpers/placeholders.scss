@@ -1,0 +1,13 @@
+%title-fonts{
+    font-family: $main-font-family;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: $main-font-color;
+}
+%btn{
+    border: none;
+    background-color: $btn-color;
+    box-shadow: 0px 2px 10px 0px rgba(255, 107, 8, 0.59);
+    color: #fff;
+}

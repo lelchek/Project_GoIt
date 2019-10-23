@@ -1,0 +1,49 @@
+/* acrom-light - latin_cyrillic */
+@font-face {
+    font-family: 'Acrom-300';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Acrom-Light.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Acrom-Light.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* acrom-regular - latin_cyrillic */
+  @font-face {
+    font-family: 'Acrom-400';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Acrom-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Acrom-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* acrom-medium - latin_cyrillic */
+  @font-face {
+    font-family: 'Acrom-500';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/Acrom-Medium.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Acrom-Medium.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* acrom-bold - latin_cyrillic */
+  @font-face {
+    font-family: 'Acrom-700';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/Acrom-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Acrom-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* acrom-extrabold - latin_cyrillic */
+  @font-face {
+    font-family: 'Acrom-800';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/Acrom-ExtraBold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/Acrom-ExtraBold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Montserrat Bold'), local('Montserrat-Bold'),
+         url('../fonts/montserrat-v14-latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/montserrat-v14-latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
