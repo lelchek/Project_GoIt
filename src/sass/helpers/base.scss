@@ -18,7 +18,11 @@ h1,h2,h3,ul,p{
     margin: 0;
 }
 a{
+    display: block;
     text-decoration: none;
+}
+picture{
+    display: block;
 }
 ul{
     list-style: none;

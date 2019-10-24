@@ -1,0 +1,279 @@
+.header {
+  background-color: rgb(24, 28, 39);
+  background-image: url(../images/bg_320.png);
+  background-repeat: no-repeat;
+  background-position: center;
+//   background-size: 320px 798px;
+  background-size: cover;
+  padding: 26px 0 30px 0;
+}
+.header-logo{
+    margin-bottom: 24px;
+}
+.header-content {
+
+  &-dscr {
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.3;
+    padding-bottom: 14px;
+
+    &__title {
+      font-family: 'Acrom-400', sans-serif;
+      font-weight: 400;
+      font-size: 14px;
+      padding-bottom: 18px;
+    }
+
+    &__slogan {
+      font-family: 'Acrom-800', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: $main-site-color;
+      padding-bottom: 16px;
+    }
+    &__text{
+        font-family: 'Acrom-500', sans-serif;
+        font-weight: 500;
+        padding-bottom: 20px;
+    }
+    &__date{
+        font-family: 'Acrom-800', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        color: #f9ae23;
+
+        span{
+            display: block;
+            font-family: 'Acrom-700', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            padding-bottom: 6px;
+        }
+    }
+  }
+}
+
+.form-registration{
+    &__overlay{
+        position: relative;
+        background-color: #fff;
+        padding: 18px;
+        padding-bottom: 28px;
+        box-shadow: 0px 12px 70px 0px rgba(121, 139, 188, 0.48);
+        margin-bottom: 14px;
+    }
+    &__title{
+        font-family: 'Acrom-800', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 8px;
+    }
+    &__dscr{
+        font-family: 'Acrom-300', sans-serif;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 18px;
+        padding-bottom: 12px;
+    }
+    &__input{
+        width: 100%;
+        margin-bottom: 14px;
+        padding: 16px 18px;
+        font-family: 'Acrom-500', sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        color: rgb(162, 162, 162);
+        border: 0.833px solid rgb(82, 82, 82);
+        &:last-of-type{
+            margin-bottom: 20px;
+        }
+    }
+    &__btn{
+        width: 100%;
+        @extend %btn;
+        text-transform: uppercase;
+        font-family: 'Acrom-800', sans-serif;
+        font-weight: 800;
+        font-size: 16px;
+        padding: 14px;
+    }
+
+}
+.header_confidentiality{
+    position: absolute;
+    font-family: 'Acrom-400', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgb(93, 96, 102);
+    margin: 0 auto;
+    width: 260px;
+    text-align: center;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (min-width: 320px) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .header {
+          background-image: url(../images/bg_320@2x.png);
+        }
+      }
+      
+}
+
+@media (min-width: 768px) {
+  .header {
+    background-image: url(../images/bg_768.png);
+    // background-size: 768px 918px;
+    padding: 40px 0 36px 0;
+    &-overlay{
+        width: 620px;
+    }
+    &-logo{
+        margin-bottom: 32px;
+    }
+  }
+  .header-content-dscr {
+      width: 576px;
+      padding-bottom: 18px;
+      &__title{
+        padding-bottom: 36px;          
+      }
+      &__slogan{
+          font-size: 40px;
+          line-height: 50px;
+          padding-bottom: 22px;
+      }
+      &__text{
+          font-size: 18px;
+          line-height: 26px;
+          padding-bottom: 28px;
+      }
+      &__date{
+          font-size: 40px;
+      }
+      span{
+          font-size: 18px;
+          padding-bottom: 8px;
+      }
+  }
+  .form-registration{
+    &__overlay{
+        padding: 32px 76px 40px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 28px;
+        padding-bottom: 18px;
+    }
+    &__dscr{
+        padding-bottom: 24px;
+    }
+    &__input{
+        &:last-of-type{
+            margin-bottom: 28px;
+        }
+
+    }
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header {
+      background-image: url(../images/bg_768@2x.png);
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .header {
+    background-image: url(../images/bg_1200.png);
+    // background-size: 1587px 946px;
+    padding: 36px 0 100px;
+    &-overlay{
+        padding-left: 14px;
+        width: 1170px;
+    }
+    &-logo{
+        margin-bottom: 68px;
+    }
+  }
+  .header-content{
+      display: flex;
+      justify-content: space-between;
+  }
+  .header-content-dscr {
+      width: 654px;
+      &__title{
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 44px;     
+      }
+      &__slogan{
+          font-size: 60px;
+          line-height: 70px;
+          padding-bottom: 52px;
+          letter-spacing: -2.5px;
+      }
+      &__text{
+          font-size: 35px;
+          line-height: 1.2;
+          padding-bottom: 44px;
+      }
+      &__date{
+          font-size: 55px;
+          letter-spacing: -1.5px;
+      }
+      span{
+          font-size: 30px;
+          padding-bottom: 26px;
+      }
+  }
+  .form-registration{
+    &__overlay{
+        width: 462px;
+        padding: 44px 34px 50px;
+        // margin-bottom: 10px;
+        text-align: left;
+    }
+    &__title{
+        font-size: 35px;
+        line-height: 1.2;
+        padding-bottom: 24px;
+        letter-spacing: -1.5px;
+    }
+    &__dscr{
+        font-size: 18px;
+        line-height: 28px;
+        padding-bottom: 32px;
+        letter-spacing: -0.3px;
+    }
+    &__input{
+        margin-bottom: 38px;
+        font-size: 18px;
+        padding: 22px 14px;
+        &:last-of-type{
+            margin-bottom: 38px;
+        }
+    }
+    &__btn{
+        padding: 22px;
+    }
+
+  }
+  .header_confidentiality{
+      font-size: 17px;
+      bottom: -34px;
+      width: 460px;
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .header {
+      background-image: url(../images/bg_1200@2x.png);
+    }
+  }
+}
