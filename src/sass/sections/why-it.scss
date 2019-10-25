@@ -1,0 +1,257 @@
+.whyit{
+    padding: 36px 0 38px;
+    background-image: url(../images/map_320.png);
+    background-size: 272px 193px;
+    background-repeat: no-repeat;
+    background-position: bottom 480px right 0;
+
+}
+.whyit h2{
+    font-family: 'Acrom-800', sans-serif;
+    color: rgb(27, 32, 42);
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: -1px;
+    &::before{
+        content: '[ ';
+        font-family: $main-font-family;
+    }
+    &::after{
+        content: ' ]';
+        font-family: $main-font-family;
+
+    }
+}
+.whyit-title{
+    margin-bottom: 24px;
+}
+.whyit-map{
+    margin-bottom: 30px;
+
+    &__title{
+        font-family: 'Acrom-800', sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: rgb(27, 32, 42);
+        margin-bottom: 22px;
+        letter-spacing: -0.5px;
+    }
+    &__report{
+        margin-bottom: 18px;
+        padding: 0 16px;
+        &-item{
+            &-number{
+                font-family: $main-font-family;
+                font-size: 30px;
+                color: $main-site-color;
+                margin-bottom: 10px;
+            }
+            &-dscr{
+                font-family: 'Acrom-400', sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: #1b202a;
+                letter-spacing: -0.5px;
+            }
+            &:not(:last-of-type){
+                margin-bottom: 24px;
+            }
+        }
+    }
+    &__profit{
+        padding: 0 16px;
+        &-title{
+            font-family: $main-font-family;
+            font-size: 14px;
+            line-height: 20px;
+            color: rgb(27, 32, 42);
+            margin-bottom: 6px;
+            letter-spacing: -1px;
+        }
+        &-list{
+            display: flex;
+            justify-content: space-between;
+            &-item{
+                width: 108px;
+                &-number{
+                    font-family: $main-font-family;
+                    color: $main-site-color;
+                    font-size: 25px;
+                    letter-spacing: -1px;
+                    margin-bottom: 4px;
+                }
+                &-dscr{
+                    font-family: 'Acrom-400', sans-serif;
+                    font-size: 10px;
+                    line-height: 11px;
+                    color: $main-font-color;
+                }
+            }
+        }
+    }
+}
+.whyit-offer{
+    &__title{
+        margin-bottom: 14px;
+        letter-spacing: -1px;
+    }
+    &__list{
+        &-item{
+            position: relative;
+            &-dscr{
+                font-family: 'Acrom-400', sans-serif;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgb(27, 32, 42);
+                padding-left: 36px;
+                letter-spacing: -1px;
+            }
+            &::before{
+                position: absolute;
+                top: 4px;
+                display: block;
+                content: '';
+                width: 12px;
+                height: 12px;
+                background-color: $main-site-color;
+            }
+            &:not(:last-of-type){
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) {
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .whyit {
+          background-image: url(../images/map_320@2x.png);
+        }
+      }
+      
+}
+
+@media (min-width: 768px){
+    .whyit{
+        padding: 34px 0 54px;
+        background-image: none;
+    }
+    .whyit h2{
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .whyit-title{
+        margin-bottom: 30px;
+    }
+    .whyit-map{
+        background-image: url(../images/map_768.png);
+        background-size: 311px 193px;
+        background-repeat: no-repeat;
+        background-position: bottom 54px right 54px;
+        width: 702px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        padding: 50px 54px 54px;
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -18px 18px rgb(237, 240, 242);
+        &__title{
+            text-align: center;
+            width: 404px;
+            margin: 0 auto;
+            font-size: 18px;
+            line-height: 25px;
+            margin-bottom: 40px;
+        }
+        &__report{
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 0;
+            &-item{
+                width: 178px;
+                &-number{
+                    font-family: 'Acrom-500', sans-serif;    
+                }
+                &:nth-last-of-type(-n+3){
+                    margin-bottom: 0;
+                }
+            }
+        }
+        &__profit{
+            padding: 0;
+            width: 234px;
+            &-list{
+                &-item{
+                    &-number{
+                        font-family: 'Acrom-500', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+    .whyit-offer{
+        margin: 0 64px;
+        &__title{
+            margin-bottom: 24px;    
+        }
+        &__list{
+            &-item{
+                &-dscr{
+                    font-size: 16px;
+                    line-height: 22px;
+                }
+                &:not(:last-of-type){
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        .whyit-map {
+          background-image: url(../images/map_768@2x.png);
+
+        }
+    }    
+}
+
+@media (min-width: 1200px){
+    .whyit{
+        padding: 90px 14px 144px;
+    }
+    .whyit h2{
+        font-size: 48px;
+        line-height: 60px;
+        text-align: left;
+    }
+    .whyit-title{
+        margin-bottom: 66px;
+        width: 458px;
+    }
+    .whyit-map{
+        margin: 0;
+        &__title{
+            width: 390px;
+        }
+    }
+    .whyit-offer{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        margin: 0;
+        width: 390px;
+        &__list{
+            &-item{
+                &-dscr{
+                    font-size: 18px;
+                }
+                &:not(:last-of-type){
+                    margin-bottom: 16px;
+                }
+            }
+        }
+    }
+    .whyit-map-overlay{
+        position: relative;
+    }
+}
