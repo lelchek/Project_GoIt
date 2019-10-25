@@ -1,0 +1,5 @@
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="10" viewBox="0 0 50 32">
+        <title>icon-arrow</title>
+        <path fill="none" stroke="#00eaff" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="6" d="M40.751 3.543l12.844 12.457-12.844 12.457"></path>
+        <path fill="none" stroke="#00eaff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="6" d="M1 15.232h50.523"></path>
+        </svg>
