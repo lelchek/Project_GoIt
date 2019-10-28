@@ -1,0 +1,197 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-alfabank {
+    width: 109px;
+    height: 29px;
+    background-position: -8px -8px;
+}
+
+.sprite-alfabank_hvr {
+    width: 109px;
+    height: 29px;
+    background-position: -8px -53px;
+}
+
+.sprite-ciklum {
+    width: 138px;
+    height: 29px;
+    background-position: -8px -98px;
+}
+
+.sprite-ciklum_hvr {
+    width: 138px;
+    height: 29px;
+    background-position: -8px -143px;
+}
+
+.sprite-crytek {
+    width: 80px;
+    height: 27px;
+    background-position: -8px -188px;
+}
+
+.sprite-crytek_hvr {
+    width: 80px;
+    height: 27px;
+    background-position: -8px -231px;
+}
+
+.sprite-epam {
+    width: 59px;
+    height: 21px;
+    background-position: -8px -274px;
+}
+
+.sprite-epam_hvr {
+    width: 59px;
+    height: 21px;
+    background-position: -8px -311px;
+}
+
+.sprite-globallogic {
+    width: 111px;
+    height: 20px;
+    background-position: -8px -348px;
+}
+
+.sprite-globallogic_hvr {
+    width: 111px;
+    height: 20px;
+    background-position: -8px -384px;
+}
+
+.sprite-goiteens {
+    width: 86px;
+    height: 23px;
+    background-position: -8px -420px;
+}
+
+.sprite-goiteens_hvr {
+    width: 86px;
+    height: 23px;
+    background-position: -8px -459px;
+}
+
+.sprite-grossum {
+    width: 88px;
+    height: 25px;
+    background-position: -8px -498px;
+}
+
+.sprite-grossum_hvr {
+    width: 88px;
+    height: 25px;
+    background-position: -8px -539px;
+}
+
+.sprite-infopulse {
+    width: 76px;
+    height: 19px;
+    background-position: -8px -580px;
+}
+
+.sprite-infopulse_hvr {
+    width: 76px;
+    height: 19px;
+    background-position: -8px -615px;
+}
+
+.sprite-inovecs {
+    width: 92px;
+    height: 16px;
+    background-position: -8px -650px;
+}
+
+.sprite-inovecs_hvr {
+    width: 92px;
+    height: 16px;
+    background-position: -8px -682px;
+}
+
+.sprite-kuhne_nagel {
+    width: 72px;
+    height: 38px;
+    background-position: -8px -714px;
+}
+
+.sprite-kuhne_nagel_hvr {
+    width: 72px;
+    height: 38px;
+    background-position: -8px -768px;
+}
+
+.sprite-lenal {
+    width: 77px;
+    height: 19px;
+    background-position: -8px -822px;
+}
+
+.sprite-lenal_hvr {
+    width: 77px;
+    height: 19px;
+    background-position: -8px -857px;
+}
+
+.sprite-luxoft {
+    width: 72px;
+    height: 38px;
+    background-position: -8px -892px;
+}
+
+.sprite-luxoft_hvr {
+    width: 72px;
+    height: 38px;
+    background-position: -8px -946px;
+}
+
+.sprite-softserve {
+    width: 117px;
+    height: 17px;
+    background-position: -8px -1000px;
+}
+
+.sprite-softserve_hvr {
+    width: 117px;
+    height: 17px;
+    background-position: -8px -1033px;
+}
+
+.sprite-templatemonster {
+    width: 134px;
+    height: 22px;
+    background-position: -8px -1066px;
+}
+
+.sprite-templatemonster_hvr {
+    width: 134px;
+    height: 22px;
+    background-position: -8px -1104px;
+}
+
+.sprite-terrasoft {
+    width: 81px;
+    height: 16px;
+    background-position: -8px -1142px;
+}
+
+.sprite-terrasoft_hvr {
+    width: 81px;
+    height: 16px;
+    background-position: -8px -1174px;
+}
+
+.sprite-ubisoft {
+    width: 46px;
+    height: 34px;
+    background-position: -8px -1206px;
+}
+
+.sprite-ubisoft_hvr {
+    width: 46px;
+    height: 34px;
+    background-position: -8px -1256px;
+}
