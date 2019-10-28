@@ -1,0 +1,156 @@
+.career{
+    background-color: rgb(237, 240, 242);
+    z-index: -2;
+    position: relative;
+}
+.career-wrap{
+    padding: 30px 18px 38px;
+}
+.career-title{
+    font-family: 'Acrom-800', sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: $main-font-color;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    &::before{
+        content: '[ ';
+        font-family: $main-font-family;
+    }
+    &::after{
+        content: '_ ]';
+        font-family: $main-font-family;
+
+    }
+}
+.career-list{
+    margin-bottom: 34px;
+    counter-reset: career-list__item 0;
+    &__item{
+        position: relative;
+        background-color: #fff;
+        box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -16px 16px rgb(230, 233, 235);
+        min-height: 230px;
+        padding: 38px 28px;
+        &:not(:last-of-type){
+            margin-bottom: 40px;
+        }
+        &-dscr{
+            font-family: 'Acrom-400', sans-serif;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: -1px;
+            span{
+                font-family: 'Acrom-800', sans-serif;
+            }
+        }
+        &::before{
+            display: block;
+            content: '';
+            position: absolute;
+            top: 24px;
+            left: -12px;
+            background-color: $main-site-color;
+            width: 60px;
+            height: 2px;
+        }
+        &::after{
+            display: block;
+            counter-increment: career-list__item 1;
+            content: '0' counter(career-list__item, decimal);
+            position: absolute;
+            top: -32px;
+            right: -1px;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 50px;
+            color: rgb(251, 252, 251);
+            z-index: -1;
+        }
+    }
+    
+}
+.career-btn{
+    @extend %btn;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Acrom-800', sans-serif;
+    font-size: 14px;
+    padding: 26px 20px;
+}
+
+
+@media (min-width: 768px){
+    .career-wrap{
+        padding: 46px 16px 60px;
+    }
+    .career-title{
+        font-size: 30px;
+        line-height: 40px;
+        width: 540px;
+        margin: 0 auto;
+        margin-bottom: 48px;        
+    }
+    .career-list{
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-between;
+        &__item{
+            box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -18px 14px rgb(230, 233, 235);
+            width: 226px;
+            padding: 36px 30px;
+            &:not(:last-of-type){
+                margin-bottom: 0;
+            }
+            &::after{
+                font-size: 70px;
+                top: -52px;
+                right: 0;
+            }
+        }
+    }
+    .career-btn{
+        font-size: 18px;
+        width: 532px;
+    }
+}
+
+@media (min-width: 1200px){
+    .career-wrap{
+        padding: 84px 16px 100px;
+    }
+    .career-title{
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -1.5px;
+        width: 1070px;
+        margin-bottom: 100px;
+    }
+    .career-list{
+        margin-bottom: 76px;
+        &__item{
+            box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -20px 20px rgb(230, 233, 235);
+            width: 350px;
+            min-height: 278px;
+            padding: 62px 30px 40px;
+            &-dscr{
+                font-size: 18px;
+                line-height: 35px;
+            }
+            &::before{
+                top: 44px;
+            }
+            &::after{
+                font-size: 150px;
+                top: -106px;
+                right: -4px;
+            }
+        }
+    }
+    .career-btn{
+        font-size: 25px;
+        padding: 40px 0;
+        width: 810px;
+    }
+}
