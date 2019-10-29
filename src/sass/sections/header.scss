@@ -98,7 +98,10 @@
         font-weight: 800;
         font-size: 1rem;
         padding: 0.875rem;
-        cursor: pointer;
+        // cursor: pointer;
+        &:hover{
+            @extend %btn-hover;
+        }
     }
 
 }
