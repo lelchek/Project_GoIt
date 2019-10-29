@@ -13,6 +13,7 @@
     }
     &-resetline {
       display: block;
+      /* width: 70%; */
     }
   }
   &__info {
@@ -324,7 +325,7 @@
 
     &__title{
 
-      width: 100%;
+      width: auto;
       font-size: 1.875rem;
       line-height: 1.33333;
       margin: 0 0 2.5rem 4rem;
@@ -386,6 +387,7 @@
   justify-content: space-between;
 }
 &__title{
+  width: 73.125rem;
   order: 0;
   margin: 0 0 2.5rem 0;
 }
@@ -422,7 +424,7 @@
       transform: rotate(-90deg);
       font-family: "Acrom-800", sans-serif;
       font-size: 1.875rem;
-      right: -3.125rem;
+      right: 0;
            }
            &-contentwrapper{
             margin: 0 0 0 0px;

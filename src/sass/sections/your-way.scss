@@ -5,7 +5,6 @@
   background-size: cover;
   padding: 2.5rem 0 2.5rem 0;
 
-
   &__txt-question {
     color: #fff;
     font-family: 'Acrom-800', sans-serif;
@@ -29,7 +28,7 @@
     &::before {
       content: '';
       display: block;
-      background-color:$main-site-color;
+      background-color: $main-site-color;
       position: absolute;
       top: -20px;
       left: 0;
@@ -38,7 +37,6 @@
     }
   }
   &__title {
-    width: 20rem;
     font-family: 'Acrom-800', sans-serif;
     font-size: 1.25rem;
     color: $main-site-color;
@@ -52,35 +50,31 @@
   font-size: 0.875rem;
   width: 16.25rem;
   height: 4.375rem;
-  /* background-color: #ff702a; */
-  /* border: transparent; */
-  /* color: #fff; */
-  &:hover, &:focus{
+  &:hover,
+  &:focus {
     @extend %btn-hover;
   }
 }
 
 @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi) {
-    .yourway {
-        background-image: url("../images/bg_mobile@2x.jpg");
-    }
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi) {
+  .yourway {
+    background-image: url('../images/bg_mobile@2x.jpg');
+  }
 }
 
 @media (min-width: 768px) {
-
   @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi) {
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi) {
     .yourway {
-        background-image: url("../images/bg_tablet@2x.jpg");
+      background-image: url('../images/bg_tablet@2x.jpg');
     }
-}
+  }
 
   .yourway {
     background-image: url(../images/bg_tablet.jpg);
-    padding: 2.5rem 4rem 2.5rem 4rem;
 
     &__txt-question {
       font-size: 1.375rem;
@@ -89,11 +83,12 @@
     &__txt-work {
       font-size: 1rem;
       width: 24rem;
-      margin-bottom: 40px;
+      margin-bottom: 2.5rem;
     }
     &__title {
       font-size: 2.5rem;
       margin-bottom: 2.5rem;
+      width: 42.6875rem;
     }
   }
   .yourway-btn {
@@ -104,15 +99,15 @@
 
 @media (min-width: 1200px) {
   @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi) {
+    (-o-min-device-pixel-ratio: 2/1),
+    (min-resolution: 192dpi) {
     .yourway {
-        background-image: url("../images/bg_desktop@2x.jpg");
+      background-image: url('../images/bg_desktop@2x.jpg');
     }
-}
+  }
 
   .yourway {
-    padding: 6.25rem 0 6.875rem 0.9375rem;
+    padding: 6.25rem 0 6.875rem 0;
     background-image: url(../images/bg_desktop.jpg);
 
     &__txt-question {
@@ -126,7 +121,7 @@
 
       font-size: 1.125rem;
       line-height: 2.1875rem;
-      }
+    }
     &__title {
       width: 42.6875rem;
       font-size: 3rem;
