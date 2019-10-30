@@ -6,23 +6,23 @@
   font-family: "Acrom-800", sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin-bottom: 1.875rem;
   text-align: left;
 }
 
 .questions-bl__item {
   position: relative;
-  padding: 0 0 0 36px;
+  padding: 0 0 0 2.25rem;
   font-family: "Acrom-400", sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 
   &:not(:last-of-type) {
-    margin-bottom: 26px;
+    margin-bottom: 1.625rem;
   }
 }
 
@@ -48,30 +48,30 @@
 @media (min-width: 768px) {
   .questions-sec {
     width: 620px;
-    padding: 40px 0 40px;
+    padding: 2.5rem 0 2.5rem;
   }
 
   .questions-sec__title {
-    font-size: 30px;
-    line-height: 40px;
-    margin-bottom: 40px;
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 2.5rem;
   }
 
   .questions-bl__item {
-    padding: 0 0 0 42px;
+    padding: 0 0 0 2.625rem;
 
     &:not(:last-of-type) {
-      margin-bottom: 22px;
+      margin-bottom: 1.375rem;
     }
 
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 1rem;
+    line-height: 1.375rem;
   }
 }
 
 @media (min-width: 1200px) {
   .questions-sec {
-    padding: 130px 0 98px;
+    padding: 8.125rem 0 6.125rem;
   }
 
   .questions-sec {
@@ -81,9 +81,9 @@
 
   .questions-sec__title {
     width: 515px;
-    padding: 0 15px 0;
-    font-size: 48px;
-    line-height: 60px;
+    padding: 0 0.9375rem 0;
+    font-size: 3rem;
+    line-height: 3.75rem;
   }
 
   .questions-bl {
@@ -91,14 +91,14 @@
   }
 
   .questions-bl__item {
-    padding: 0 15px 0 75px;
+    padding: 0 0.9375rem 0 4.6875rem;
 
     &:not(:last-of-type) {
-      margin-bottom: 36px;
+      margin-bottom: 2.25rem;
     }
 
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
   }
 
   .questions-bl__item::before {
