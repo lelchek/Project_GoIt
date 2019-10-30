@@ -86,13 +86,12 @@
         font-size: 0.875rem;
         border: 0.833px solid rgb(82, 82, 82);
         &::placeholder{
-            color: rgb(162, 162, 162);
+           color: rgb(162, 162, 162);
         }
         &:last-of-type{
             margin-bottom: 1.25rem;
         }
-
-    }
+   }
     &__btn{
         width: 100%;
         @extend %btn;
