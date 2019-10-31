@@ -60,8 +60,8 @@
   counter-reset: awards__card 0;
 
   &__card {
-    width: 14.0625rem;
-    padding: 2.75rem 0 1.875rem 0;
+    /* width: 225px; */
+    padding: 2.75rem 1.25rem 1.875rem 1.25rem;
     box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16),
       -20px 20px 0px 0px rgba(230, 233, 235, 1);
     margin-bottom: 3.75rem;
@@ -84,7 +84,7 @@
 
     }
     &-contentwrapper{
-      margin: 0 0 0 1.625rem;
+      /* margin: 0 0 0 1.625rem; */
 
     }
   }
@@ -94,7 +94,6 @@
     font-size: 1.125rem;
     line-height: 1.4444;
     text-transform: uppercase;
-    width: 60%;
     margin: 0 0 1rem 0;
     &::before{
             content: "";
@@ -117,7 +116,7 @@
     font-size: 0.875rem;
     /* padding: 24px 24px 24px 24px; */
     margin-bottom: 1.25rem;
-    padding: 0 1.5rem 0 0;
+    /* padding: 0 1.5rem 0 0; */
     &-bold {
       font-family: 'Acrom-800', sans-serif;
       color: #000;
@@ -344,7 +343,7 @@
           }
     &__tender{
       width: 23.375rem;
-      margin: 0 auto;
+      margin: 0 auto 60px auto;
       background-position: top right;
     }
   }
@@ -354,6 +353,7 @@
   justify-content: center;
 
   &__card{
+  width: 14.125rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -390,10 +390,11 @@
 &__title{
   width: 73.125rem;
   order: 0;
-  margin: 0 0 2.5rem 0;
+  margin: 0 0 4.375rem 0;
 }
  &__tender{
    margin: unset;
+   margin-bottom: 3.75rem;
       order: 1;
     }
   &__partners{
@@ -414,12 +415,14 @@
   padding: 0;
   justify-content: space-between;
   width: 100%;
+
   &__card{
     width: 22.5rem;
     box-shadow: none;
     background: unset;
     flex-direction: row;
     margin-bottom: unset;
+    padding: 2.75rem 0 1.875rem 0;
 
     &::before{
       transform: rotate(-90deg);

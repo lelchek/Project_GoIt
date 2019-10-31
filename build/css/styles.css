@@ -1053,8 +1053,8 @@ input[type="radio"].visually-hidden {
 }
 
 .awards__card {
-  width: 14.0625rem;
-  padding: 2.75rem 0 1.875rem 0;
+  /* width: 225px; */
+  padding: 2.75rem 1.25rem 1.875rem 1.25rem;
   box-shadow: 0px 15px 32px 0px rgba(0, 0, 0, 0.16), -20px 20px 0px 0px #e6e9eb;
   margin-bottom: 3.75rem;
   position: relative;
@@ -1079,7 +1079,7 @@ input[type="radio"].visually-hidden {
 }
 
 .awards__card-contentwrapper {
-  margin: 0 0 0 1.625rem;
+  /* margin: 0 0 0 1.625rem; */
 }
 
 .awards__title {
@@ -1088,7 +1088,6 @@ input[type="radio"].visually-hidden {
   font-size: 1.125rem;
   line-height: 1.4444;
   text-transform: uppercase;
-  width: 60%;
   margin: 0 0 1rem 0;
 }
 
@@ -1110,7 +1109,7 @@ input[type="radio"].visually-hidden {
   font-size: 0.875rem;
   /* padding: 24px 24px 24px 24px; */
   margin-bottom: 1.25rem;
-  padding: 0 1.5rem 0 0;
+  /* padding: 0 1.5rem 0 0; */
 }
 
 .awards__txt-bold {
@@ -1618,11 +1617,13 @@ input[type="radio"].visually-hidden {
   .yourway__txt-question {
     font-size: 1.375rem;
     margin-bottom: 3.75rem;
+    line-height: 1.875rem;
+    letter-spacing: 1.2px;
   }
 
   .yourway__txt-work {
     font-size: 1rem;
-    width: 24rem;
+    width: 26rem;
     margin-bottom: 2.5rem;
   }
 
@@ -1633,7 +1634,7 @@ input[type="radio"].visually-hidden {
   }
 
   .yourway-btn {
-    width: 33.125rem;
+    width: 530px;
     font-size: 1.125rem;
   }
 
@@ -1659,7 +1660,7 @@ input[type="radio"].visually-hidden {
 
   .aboutus__tender {
     width: 23.375rem;
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     background-position: top right;
   }
 
@@ -1668,6 +1669,7 @@ input[type="radio"].visually-hidden {
   }
 
   .awards__card {
+    width: 14.125rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2043,11 +2045,12 @@ input[type="radio"].visually-hidden {
   .aboutus__title {
     width: 73.125rem;
     order: 0;
-    margin: 0 0 2.5rem 0;
+    margin: 0 0 4.375rem 0;
   }
 
   .aboutus__tender {
     margin: unset;
+    margin-bottom: 3.75rem;
     order: 1;
   }
 
@@ -2078,6 +2081,7 @@ input[type="radio"].visually-hidden {
     background: unset;
     flex-direction: row;
     margin-bottom: unset;
+    padding: 2.75rem 0 1.875rem 0;
   }
 
   .awards__card::before {
