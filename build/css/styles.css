@@ -2009,7 +2009,7 @@ input[type="radio"].visually-hidden {
   .yourway__txt-work {
     order: 2;
     font-size: 1.125rem;
-    line-height: 2.1875rem;
+    line-height: 2rem;
   }
 
   .yourway__title {
@@ -2065,7 +2065,8 @@ input[type="radio"].visually-hidden {
   }
 
   .aboutus__info-ml {
-    margin-left: unset;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 
   .awards {
@@ -2089,6 +2090,7 @@ input[type="radio"].visually-hidden {
     font-family: "Acrom-800", sans-serif;
     font-size: 1.875rem;
     right: 0;
+    top: -20px;
   }
 
   .awards__card-contentwrapper {

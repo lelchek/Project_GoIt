@@ -404,8 +404,10 @@
   &__info{
     order: 3;
     width: 100%;
+
     &-ml{
-      margin-left: unset;
+      margin-left: 0;
+      margin-bottom: 0;
     }
   }
 
@@ -429,6 +431,7 @@
       font-family: "Acrom-800", sans-serif;
       font-size: 1.875rem;
       right: 0;
+      top: -20px;
            }
            &-contentwrapper{
             margin: 0 0 0 0px;
